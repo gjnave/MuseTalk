@@ -1,10 +1,3 @@
 task_0:
- video_path: "data/video/yongen.mp4"
- audio_path: "data/audio/yongen.wav"
-
-task_1:
- video_path: "data/video/sun.mp4"
- audio_path: "data/audio/sun.wav"
- bbox_shift: -7
-  
-
+  audio_path: C:\Users\Cognibuild\AppData\Local\Temp\gradio\37e890e883d63411aca36f85edbb46d4df24c740\audio.wav
+  video_path: ./results\sample.mp4

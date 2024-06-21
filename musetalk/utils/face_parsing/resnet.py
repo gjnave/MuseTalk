@@ -54,9 +54,12 @@ def create_layer_basic(in_chan, out_chan, bnum, stride=1):
         layers.append(BasicBlock(out_chan, out_chan, stride=1))
     return nn.Sequential(*layers)
 
-
+import os
 class Resnet18(nn.Module):
     def __init__(self, model_path):
+        print(f"Model path: {model_path}")
+        print("Current directory:", os.getcwd())
+        model_path = "./musetalk/models/face-parse-bisent/resnet18-5c106cde.pth"
         super(Resnet18, self).__init__()
         self.conv1 = nn.Conv2d(3, 64, kernel_size=7, stride=2, padding=3,
                                bias=False)
