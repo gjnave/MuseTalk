@@ -1,3 +1,6 @@
+*** NOTE: This fork fixes several path issues in the original **
+*** If you can't get the original branch to work then try this one ***
+*** www.patreon.com/cognibuild  -- www.youtube.com/cognibuild -- www.cognbuild.ai ***
 # MuseTalk
 
 MuseTalk: Real-Time High Quality Lip Synchronization with Latent Space Inpainting
